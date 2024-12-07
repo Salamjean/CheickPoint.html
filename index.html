@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de page</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section About -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Voici la section "About". Parlez de vous ici.</p>
+        <form>
+            <label for="aboutName">Votre nom:</label><br>
+            <input type="text" id="aboutName" name="aboutName"><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Section Work -->
+    <section id="work">
+        <h2>Work</h2>
+        <p>Voici la section "Work". Décrivez votre travail ici.</p>
+        <form>
+            <label for="workDescription">Description de votre travail:</label><br>
+            <textarea id="workDescription" name="workDescription"></textarea><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Section Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Voici la section "Resume". Ajoutez votre CV ici.</p>
+        <form>
+            <label for="resumeFile">Téléchargez votre CV:</label><br>
+            <input type="file" id="resumeFile" name="resumeFile"><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Voici la section "Contact". Vous pouvez nous contacter ici.</p>
+        <form>
+            <label for="contactEmail">Votre email:</label><br>
+            <input type="email" id="contactEmail" name="contactEmail"><br><br>
+            <label for="contactMessage">Votre message:</label><br>
+            <textarea id="contactMessage" name="contactMessage"></textarea><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Votre Nom. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
